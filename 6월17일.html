@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>6월16일 배운것</title>
+    <title>6월17일 배운것</title>
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -47,17 +47,27 @@
       <td>a href="링크주소"</td> <td>링크 만드는법</td>
     </tr>
     </table>
-    <br><h1><a href="github.com.html"> 1.웹호스팅 무료사이트</a></h1>
-    <br><a href="my site.html" target="_blank">깃허브에서 받은 내 사이트</a>
-      <br><h1>2.동영상 삽입</h1>
-      <p>
-        <iframe width="670" height="380" src="https://www.youtube.com/embed/7T7r_oSp0SE?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p>
-      <h2>동영상 쉽게 넣는법 ↑위에 동영상 참고</h2>
-      width, height은 동영상 크기 조절, src는 주소, 뒤에것(나머지는 아직 모르겠음)
-      <p>
-        <iframe title=""말 못하는 생명에 몹쓸 짓"..'동물 학대' 근절해야" width="640" height="360" src="https://play-tv.kakao.com/embed/player/cliplink/409951870?service=daum_news" allowfullscreen frameborder="0" scrolling="no" allow="autoplay"></iframe>
-      </p>
-        <iframe src='https://tv.naver.com/embed/13695974?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
-  </body>
-</html>
+    <h2><br>1.댓글 기능 추가</h2>
+    disqus
+    <p>
+      <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jun-8.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
