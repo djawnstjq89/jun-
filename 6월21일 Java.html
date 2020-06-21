@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    </style>
+    <title>6월19일 CSS</title>
+  </head>
+  <body>
+    <h1><a href="jun.html">WEB</a></h1>
+      <input type="button" value="Night Mode" onclick="
+      var target = document.querySelector('body');
+      if(this.value === 'Night Mode'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'Light Mode';
+
+      var alist = document.querySelectorAll('a');
+      var i=0;
+      while(i<alist.length){
+      console.log(alist[i]);
+      alist[i].style.color = 'white';
+      i=i+1;
+      }
+    } else{
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'Night Mode';
+
+      var alist = document.querySelectorAll('a');
+      var i=0;
+      while(i<alist.length){
+      console.log(alist[i]);
+      alist[i].style.color = 'black';
+      i=i+1;
+}
+    }
+      ">
+  <div id="grid">
+    <ol>
+      <li><a href="6월12일.html" title="6월12일">6월 12일</a></li>
+      <li><a href="6월15일.html" title="6월15일">6월 15일</a></li>
+      <li><a href="6월16일.html" title="6월16일">6월 16일</a></li>
+      <li><a href="6월17일.html" title="6월17일">6월 17일</a></li>
+      <li><a href="6월18일.html" title="6월18일">6월 18일</a></li>
+      <li><a href="6월19일.html" title="6월19일">6월 19일</a></li>
+      <li><a href="6월19일 Java.html" title="6월19일Java">6월 19일 Java</a></li>
+      <li><a href="6월21일 Java.html" title="6월21일Java">6월 21일 Java</a></li>
+      <li><a href="Jun's life.html">총정리</a></li>
+    </ol>
+    <div id="article">
+    <br>1.toggle(토글 배우기)
+    <p>
+    What is CSS?
+    <br>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+    </p>
+    </div>
+   </div>
+   <iframe width="640" height="360" src="https://www.youtube.com/embed/qe3nSIg2k3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>
+   <div id="disqus_thread"></div>
+   <script>
+
+   /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+   /*
+   var disqus_config = function () {
+   this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+   };
+   */
+   (function() { // DON'T EDIT BELOW THIS LINE
+   var d = document, s = d.createElement('script');
+   s.src = 'https://jun-8.disqus.com/embed.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+   })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ </p>
+ </body>
+</html>
